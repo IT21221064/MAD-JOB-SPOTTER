@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Title">34sp</dimen>
+    <dimen name="subtitle">24sp</dimen>
+    <dimen name="tags">20dp</dimen>
+    <dimen name="ntext">16sp</dimen>
+</resources>

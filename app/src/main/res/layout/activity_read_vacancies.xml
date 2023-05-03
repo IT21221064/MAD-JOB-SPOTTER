@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadVacancies"
+    android:background="@drawable/background7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/asap"
+                android:gravity="center"
+                android:text="@string/apply_vacany"
+                android:textColor="#b2dfdb"
+                android:textSize="@dimen/applyvacancy"
+                android:textStyle="bold"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/lightBlue"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="7dp">
+
+                <TextView
+                    android:id="@+id/VacancyJob1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/software_engineering"
+                    android:textSize="24sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#424242"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/VacancyDes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our company is seeking a highly skilled Software Engineer to join our dynamic team. The ideal candidate will be responsible for the development and maintenance of complex software applications."
+                    android:textSize="19sp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/asap"
+
+                    />
+                <TextView
+                    android:id="@+id/VacancyDes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name of company - Petra Finance ltd"
+                    android:textSize="19sp"
+                    android:layout_marginTop="220dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/asap"
+                    />
+
+                <TextView
+                    android:id="@+id/VacancyDes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qualifications - Bachelor's or Master's degree in Computer Science,
+                    Software Engineering or a related field, 2 year Work experience,  Strong experience in Java, Python, and/or C++ programming languages"
+                    android:textSize="19sp"
+                    android:layout_marginTop="255dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/asap"
+                    />
+                <TextView
+                    android:id="@+id/VacancyDes4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salary and benefits -     Competitive salary based on experience and qualifications
+Health insurance, retirement plans, and paid time off. "
+                    android:textSize="19sp"
+                    android:layout_marginTop="400dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/asap"
+                    />
+
+                <TextView
+                    android:id="@+id/VacancyDes5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shift      - 8.00am -8pm (12 hrs shift)"
+                    android:textSize="19sp"
+                    android:layout_marginTop="500dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/asap"
+                    />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/lightPurple"
+                android:text="@string/apply_now"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@id/password2"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:clipToPadding="true"
+                android:duplicateParentState="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    app:srcCompat="@drawable/home" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="80dp"
+                    app:srcCompat="@drawable/category" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:paddingLeft="80dp"
+                    android:paddingRight="80dp"
+                    app:srcCompat="@drawable/notifications" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:cropToPadding="true"
+                    android:paddingRight="40dp"
+                    app:srcCompat="@drawable/baseline_person_outline_24" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

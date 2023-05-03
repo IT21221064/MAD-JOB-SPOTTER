@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="signuptitle">34dp</dimen>
+    <dimen name="editmyvacancy">34sp</dimen>
+    <dimen name="editprofile">34sp</dimen>
+    <dimen name="personalprofile">34sp</dimen>
+    <dimen name="applyvacancy">34sp</dimen>
+    <dimen name="subtitle">24sp</dimen>
+    <dimen name="descriptions">19sp</dimen>
+</resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompanyProfile"
+    android:background="@drawable/background4">
+
+    <TextView
+        android:id="@+id/myprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/personal_profile"
+        android:textColor="#36454F"
+        android:textSize="@dimen/personalprofile"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:padding="5dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myprofile"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:gravity="left"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/name2"
+        android:padding="5dp"
+        android:background="#30ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myprofile"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/name"
+        android:gravity="left"
+        android:text="@string/sandun_perera"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:padding="5dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="@string/username"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/username2"
+        android:padding="5dp"
+        android:background="#30ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/username"
+        android:gravity="left"
+        android:text="@string/sandun79"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:padding="5dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/email2"
+        android:padding="5dp"
+        android:background="#30ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/email"
+        android:gravity="left"
+        android:text="@string/sandunp7_gmail_com"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:padding="5dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="@string/phone"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/phone2"
+        android:padding="5dp"
+        android:background="#30ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/email"
+        android:gravity="left"
+        android:text="@string/_0719967563"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/company"
+        android:padding="5dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="@string/company"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/company2"
+        android:padding="5dp"
+        android:background="#30ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/company"
+        android:gravity="left"
+        android:text="@string/glan_international_pvt"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:padding="5dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/company"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="@string/password"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/password2"
+        android:padding="5dp"
+        android:background="#30ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/company2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/company"
+        android:gravity="left"
+        android:text="**********"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightPurple"
+        android:text="@string/edit_profile_details"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password2"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightPurple"
+        android:text="@string/view_my_vacancies"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="@string/sign_out"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:clipToPadding="true"
+        android:duplicateParentState="true"
+        android:orientation="horizontal"
+        android:layout_below="@id/button3"
+        >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            app:srcCompat="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="80dp"
+            app:srcCompat="@drawable/category" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            app:srcCompat="@drawable/notifications" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:cropToPadding="true"
+            android:paddingRight="40dp"
+            app:srcCompat="@drawable/baseline_person_outline_24" />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Vacancies</string>
+    <string name="job_title">Job title</string>
+    <string name="job_category">Job category</string>
+    <string name="job_description">Job description</string>
+    <string name="company_name">Company name</string>
+    <string name="application_due_date">Application due date</string>
+    <string name="add_vacancies">ADD VACANCIES</string>
+    <string name="update">Update</string>
+    <string name="update_vacancy">UPDATE VACANCY</string>
+    <string name="delete">Delete</string>
+</resources>

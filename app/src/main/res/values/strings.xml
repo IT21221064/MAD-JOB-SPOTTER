@@ -69,5 +69,13 @@
     <string name="name">Name</string>
     <string name="interested_jobs">Interested jobs</string>
     <string name="register">Register</string>
+    <string name="app_name3">Vacancies</string>
+    <string name="job_title">Job title</string>
+    <string name="job_category">Job category</string>
+    <string name="job_description">Job description</string>
+    <string name="company_name2">Company name</string>
+    <string name="application_due_date">Application due date</string>
+    <string name="add_vacancies">ADD VACANCIES</string>
+    <string name="update_vacancy">UPDATE VACANCY</string>
 
 </resources>

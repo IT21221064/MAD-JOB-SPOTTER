@@ -56,5 +56,18 @@
     <string name="job_categories">Job Categories</string>
     <string name="job_application">JOB APPLICATION</string>
     <string name="update_application">UPDATE APPLICATION</string>
+    <string name="app_name2">NextPage</string>
+    <string name="job_seeker_s_name">Job Seeker\'s Name</string>
+    <string name="email">Email</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="age">Age</string>
+    <string name="nic">NIC</string>
+    <string name="update_account">Update Account</string>
+    <string name="my_bookmarks">My bookmarks</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="sign_out">Sign out</string>
+    <string name="name">Name</string>
+    <string name="interested_jobs">Interested jobs</string>
+    <string name="register">Register</string>
 
 </resources>

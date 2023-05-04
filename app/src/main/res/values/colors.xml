@@ -13,5 +13,6 @@
     <color name="headline">#A6FAF2</color>
     <color name="hint">#C1D1C3C3</color>
     <color name="seemore">#966fd6</color>
+    <color name="button">#966fd6</color>
 
 </resources>

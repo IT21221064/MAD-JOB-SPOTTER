@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "282775558911",
+    "firebase_url": "https://vacancies-7420e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "vacancies-7420e",
+    "storage_bucket": "vacancies-7420e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282775558911:android:584271e698cf1635c80aca",
+        "android_client_info": {
+          "package_name": "com.example.login_page"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282775558911-j5d31ric4vormf5s3df9sijovuuutdhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwt-4VBWqor5eI_i-epm4DKeHRjSqajK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282775558911-j5d31ric4vormf5s3df9sijovuuutdhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282775558911:android:f5603780c717b31fc80aca",
+        "android_client_info": {
+          "package_name": "com.example.nextpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282775558911-j5d31ric4vormf5s3df9sijovuuutdhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwt-4VBWqor5eI_i-epm4DKeHRjSqajK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282775558911-j5d31ric4vormf5s3df9sijovuuutdhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282775558911:android:022d4a9ec1c83c5fc80aca",
+        "android_client_info": {
+          "package_name": "com.example.vacancies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282775558911-j5d31ric4vormf5s3df9sijovuuutdhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwt-4VBWqor5eI_i-epm4DKeHRjSqajK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282775558911-j5d31ric4vormf5s3df9sijovuuutdhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

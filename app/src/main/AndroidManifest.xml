@@ -12,6 +12,21 @@
         android:theme="@style/Theme.Login_page"
         tools:targetApi="31">
         <activity
+            android:name=".MyVacancy"
+            android:exported="false" />
+        <activity
+            android:name=".Bookmarks"
+            android:exported="false" />
+        <activity
+            android:name=".SignupEmp"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".company_profile"
+            android:exported="false" />
+        <activity
             android:name=".UpdateVacancyPage"
             android:exported="false" />
         <activity

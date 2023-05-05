@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyVacancy"
+    android:background="@drawable/backgroundh">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:gravity="center"
+                android:text="@string/my_company_vacancies"
+                android:textColor="#36454F"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/lightBlue"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="7dp">
+
+                <TextView
+                    android:id="@+id/vacancyNo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="vacancy_no1"
+                    android:textSize="19sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/white"
+
+                    />
+                <TextView
+                    android:id="@+id/VacancyJob1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Software engineering"
+                    android:textSize="@dimen/subtitle"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <TextView
+                    android:id="@+id/VacancyDes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="we_need_software_engineers_for_to_develop_some_mobile_application_for_our_upcoming_huge_project"
+                    android:textSize="@dimen/descriptions"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+
+
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/lightBlue"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="7dp">
+
+                <TextView
+                    android:id="@+id/vacancyNo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="vacancy_no2"
+                    android:textSize="19sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/VacancyJob2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Warehouse Assistant"
+                    android:textSize="24sp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:id="@+id/VacancyDes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="we_need_warehouse_assistants_for_our_upcoming_huge_project_highly_paid_job_8_hour_shift"
+                    android:textSize="19sp"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/lightBlue"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="7dp">
+
+                <TextView
+                    android:id="@+id/vacancyNo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="vacancy_no3"
+                    android:textSize="19sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/VacancyJob3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Network Engineer"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/VacancyDes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="we_need_network_engineers_as_soon_as_possibile_for_our_upcoming_highly_paid_sucesful_project_10_hour_shift"
+                    android:textSize="19sp"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+
+
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#29b6f6"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="7dp">
+
+                <TextView
+                    android:id="@+id/vacancyNo4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="vacancy_no4"
+                    android:textSize="19sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/VacancyJob4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data Analyst"
+                    android:textSize="24sp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:id="@+id/VacancyDes4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="we_need_highly_skilled_data_analysts_as_soon_as_possible_for_our_upcoming_highly_paid_sucesful_project_10_hour_shift"
+                    android:textSize="19sp"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="15dp"
+
+
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/lightPurple"
+                android:text="@string/edit_vacancy_details"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@id/password2"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:clipToPadding="true"
+                android:duplicateParentState="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    app:srcCompat="@drawable/home" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="80dp"
+                    app:srcCompat="@drawable/category" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:paddingLeft="80dp"
+                    android:paddingRight="80dp"
+                    app:srcCompat="@drawable/notifications" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:cropToPadding="true"
+                    android:paddingRight="40dp"
+                    app:srcCompat="@drawable/baseline_person_outline_24" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

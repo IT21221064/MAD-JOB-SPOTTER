@@ -52,7 +52,7 @@
                         android:textSize="20sp" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName4"
+                        android:id="@+id/etaplEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -73,7 +73,7 @@
                         android:textSize="20sp" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName"
+                        android:id="@+id/etVacancyTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -97,7 +97,7 @@
                         />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName2"
+                        android:id="@+id/etaplName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -123,14 +123,14 @@
                         android:layout_weight="0">
 
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/taVacancyDescription"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/edittext_background"
                             android:hint="@string/job_description"
-                            android:textAlignment="center"
 
-                            />
+                            android:textAlignment="center" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <TextView
@@ -142,7 +142,7 @@
                         android:textSize="20sp" />
 
                     <EditText
-                        android:id="@+id/editTextDate"
+                        android:id="@+id/etaplWorkedStdate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -156,8 +156,7 @@
                         android:textColorHint="@color/hint" />
 
                     <Button
-                        android:id="@+id/button"
-
+                        android:id="@+id/aplApplybtn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
@@ -168,7 +167,7 @@
 
                         />
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/vcnDeletebtn"
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -182,11 +181,6 @@
 
 
                 </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"/>
 
             </LinearLayout>
 

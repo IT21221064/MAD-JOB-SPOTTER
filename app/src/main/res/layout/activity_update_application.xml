@@ -53,7 +53,7 @@
                     android:textSize="20dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/etaplName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -71,7 +71,7 @@
                     android:textSize="20dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPostalAddress"
+                    android:id="@+id/etaplAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -89,7 +89,7 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName4"
+                    android:id="@+id/etaplEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -107,7 +107,7 @@
                     android:textSize="20dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName5"
+                    android:id="@+id/etaplPhone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -130,7 +130,7 @@
                     android:orientation="horizontal">
 
                     <EditText
-                        android:id="@+id/editTextNumberDecimal"
+                        android:id="@+id/etaplDesPay"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -170,14 +170,14 @@
                         android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/radioButton"
+                            android:id="@+id/rbaplMale"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0"
                             android:text="@string/male"></RadioButton>
 
                         <RadioButton
-                            android:id="@+id/radioButton2"
+                            android:id="@+id/rbaplFemale"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -201,21 +201,21 @@
                     android:orientation="horizontal">
 
                     <CheckBox
-                        android:id="@+id/checkBox4"
+                        android:id="@+id/cbaplFulltime"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="@string/full_time" />
 
                     <CheckBox
-                        android:id="@+id/checkBox5"
+                        android:id="@+id/cbaplParttime"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="@string/part_time" />
 
                     <CheckBox
-                        android:id="@+id/checkBox6"
+                        android:id="@+id/cbaplSeasonal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
@@ -279,7 +279,7 @@
                         android:textSize="20sp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox14"
+                        android:id="@+id/cbaplGraduate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"
@@ -287,7 +287,7 @@
                         android:text="@string/yes" />
 
                     <CheckBox
-                        android:id="@+id/checkBox15"
+                        android:id="@+id/cbaplNoGraduate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
@@ -302,7 +302,7 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName7"
+                    android:id="@+id/etaplDegree"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -320,7 +320,7 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName8"
+                    android:id="@+id/etaplUniversity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -338,7 +338,7 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName9"
+                    android:id="@+id/etaplDiploma"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -356,7 +356,7 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName10"
+                    android:id="@+id/etaplCollage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -465,7 +465,7 @@
                     />
 
                 <EditText
-                    android:id="@+id/editTextDate"
+                    android:id="@+id/etaplWorkedStdate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -485,7 +485,7 @@
                     />
 
                 <EditText
-                    android:id="@+id/editTextDate2"
+                    android:id="@+id/etaplWorkeEnddate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -543,7 +543,7 @@
                         android:textAlignment="center" />
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/vcnDeletebtn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="280dp"
@@ -560,7 +560,7 @@
                         >
 
                         <Button
-                            android:id="@+id/button"
+                            android:id="@+id/aplApplybtn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"

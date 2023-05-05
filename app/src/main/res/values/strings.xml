@@ -75,6 +75,8 @@
     <string name="application_due_date">Application due date</string>
     <string name="add_vacancies">ADD VACANCIES</string>
     <string name="update_vacancy">UPDATE VACANCY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
     <string name="personal_profile">Personal profile</string>
@@ -103,5 +105,6 @@
 
     <string name="my_company_vacancies">My Company Vacancies</string>
     <string name="edit_vacancy_details">Edit Vacancy Details</string>
+
 
 </resources>

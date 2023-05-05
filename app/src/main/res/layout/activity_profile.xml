@@ -168,7 +168,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/vcnDeletebtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -178,7 +178,7 @@
                 android:text="@string/my_applications" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/aplApplybtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -188,7 +188,7 @@
                 android:text="@string/my_bookmarks" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/loginbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"

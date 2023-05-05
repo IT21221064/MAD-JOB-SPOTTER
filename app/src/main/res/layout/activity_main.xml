@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_login_username"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="12dp"
@@ -83,10 +83,10 @@
         android:text="Password : "
         android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/et_login_username" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/et_login_password"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="12dp"
@@ -104,7 +104,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBox_login"
         android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
@@ -112,10 +112,10 @@
         android:text="@string/remember"
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toTopOf="@+id/et_login_password" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/loginbtn"
         android:layout_width="164dp"
         android:layout_height="48dp"
         android:layout_marginTop="80dp"
@@ -123,7 +123,7 @@
         android:backgroundTint="@color/seemore"
         android:text="@string/login"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/et_login_password" />
 
     <TextView
         android:id="@+id/textView5"
@@ -136,7 +136,7 @@
         android:textAlignment="textEnd"
         android:textColor="#ffffff"
         android:textColorHint="#C1D1C3C3"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/loginbtn"
         app:layout_constraintEnd_toEndOf="@+id/imageView3" />
 
     <ImageView
@@ -149,7 +149,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn"
         app:srcCompat="@drawable/google" />
 
     <ImageView
@@ -170,7 +170,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/et_login_username"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/profile" />
 
@@ -180,8 +180,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/et_login_password"
+        app:layout_constraintTop_toBottomOf="@+id/et_login_username"
         app:srcCompat="@drawable/lock" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

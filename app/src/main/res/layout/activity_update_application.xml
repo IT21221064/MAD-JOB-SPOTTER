@@ -53,7 +53,7 @@
                     android:textSize="20dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/et_register_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
@@ -170,14 +170,14 @@
                         android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/radioButton"
+                            android:id="@+id/rb_register_male"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0"
                             android:text="@string/male"></RadioButton>
 
                         <RadioButton
-                            android:id="@+id/radioButton2"
+                            android:id="@+id/rb_register_female"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -465,7 +465,7 @@
                     />
 
                 <EditText
-                    android:id="@+id/editTextDate"
+                    android:id="@+id/et_register_date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"

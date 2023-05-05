@@ -53,7 +53,7 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/et_login_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -73,7 +73,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/et_register_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -93,7 +93,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextEmailAddress"
+                    android:id="@+id/et_register_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -113,7 +113,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextDate"
+                    android:id="@+id/et_register_date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -138,14 +138,14 @@
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/rb_register_male"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="@string/male" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/rb_register_female"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/female" />
@@ -159,7 +159,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextNumber"
+                    android:id="@+id/et_register_number"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -179,7 +179,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextNumber2"
+                    android:id="@+id/et_register_nic"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -199,7 +199,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextPhone"
+                    android:id="@+id/et_register_phone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"

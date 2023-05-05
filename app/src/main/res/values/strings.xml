@@ -6,7 +6,6 @@
     <string name="remember">Remember me</string>
     <string name="fullname">Full name</string>
     <string name="address">Address</string>
-    <string name="e_mail">E-mail</string>
     <string name="phone">Phone</string>
     <string name="desired_pay">Desired Pay</string>
     <string name="salary">Salary</string>
@@ -65,7 +64,6 @@
     <string name="update_account">Update Account</string>
     <string name="my_bookmarks">My bookmarks</string>
     <string name="delete_account">Delete Account</string>
-    <string name="sign_out">Sign out</string>
     <string name="name">Name</string>
     <string name="interested_jobs">Interested jobs</string>
     <string name="register">Register</string>
@@ -77,5 +75,32 @@
     <string name="application_due_date">Application due date</string>
     <string name="add_vacancies">ADD VACANCIES</string>
     <string name="update_vacancy">UPDATE VACANCY</string>
+
+
+    <string name="personal_profile">Personal profile</string>
+    <string name="edit_profile_details">Edit Profile Details</string>
+    <string name="view_my_vacancies">View My Vacancies</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="nameH">Name:</string>
+    <string name="usernameH">Username:</string>
+    <string name="emailH">Email:</string>
+    <string name="phoneH">Phone:</string>
+    <string name="companyH">Company:</string>
+    <string name="passwordH">Password:</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="update_profile_details">Update Profile Details</string>
+
+    <string name="usernamereg">username</string>
+    <string name="e_mail">E-mail</string>
+    <string name="passwordreg">Password</string>
+    <string name="re_password">Re-Password</string>
+    <string name="company_name_reg">Company Name</string>
+    <string name="current_employee_count">Current Employee Count</string>
+    <string name="company_phone_number">Company Phone Number</string>
+    <string name="company_category">Company Category</string>
+    <string name="sign_up_as_an_employer">Sign Up As an Employer</string>
+
+    <string name="my_company_vacancies">My Company Vacancies</string>
 
 </resources>

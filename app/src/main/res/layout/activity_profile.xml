@@ -27,7 +27,7 @@
                 android:fontFamily="serif"
                 android:text="My Profile"
                 android:textAlignment="center"
-                android:textSize="@dimen/Tiltle" />
+                android:textSize="@dimen/Title" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -168,7 +168,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/vcnDeletebtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -178,7 +178,7 @@
                 android:text="@string/my_applications" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/aplApplybtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"

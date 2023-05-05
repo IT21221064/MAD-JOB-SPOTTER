@@ -266,6 +266,12 @@
 
                 </androidx.cardview.widget.CardView>
 
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -275,11 +281,11 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imgHome"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="40dp"
-                        app:srcCompat="@drawable/unclickedhome" />
+                        app:srcCompat="@drawable/selected_home" />
 
                     <ImageView
                         android:id="@+id/imageView9"
@@ -298,7 +304,7 @@
                         app:srcCompat="@drawable/unclickednotifications" />
 
                     <ImageView
-                        android:id="@+id/imageView8"
+                        android:id="@+id/imgUser"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"

@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etVacancyTitle"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="12dp"
@@ -83,7 +83,7 @@
         android:text="Password : "
         android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/etVacancyTitle" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -170,7 +170,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/etVacancyTitle"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/profile" />
 
@@ -181,7 +181,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/etVacancyTitle"
         app:srcCompat="@drawable/lock" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

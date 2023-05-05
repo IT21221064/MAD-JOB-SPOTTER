@@ -63,14 +63,14 @@
                         android:orientation="horizontal">
 
                         <Button
-                            android:id="@+id/button12"
+                            android:id="@+id/aplReadbtn"
                             android:layout_width="125dp"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/seemore"
                             android:text="@string/read" />
 
                         <Button
-                            android:id="@+id/button13"
+                            android:id="@+id/aplUpdatebtn"
                             android:layout_width="125dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="80dp"
@@ -288,6 +288,12 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
 
             <LinearLayout
                 android:layout_width="match_parent"

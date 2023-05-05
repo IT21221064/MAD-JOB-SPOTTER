@@ -53,7 +53,7 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/etVacancyTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -73,7 +73,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/etaplName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -113,7 +113,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextDate"
+                    android:id="@+id/etaplWorkedStdate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -138,14 +138,14 @@
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/rbaplMale"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="@string/male" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/rbaplFemale"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/female" />

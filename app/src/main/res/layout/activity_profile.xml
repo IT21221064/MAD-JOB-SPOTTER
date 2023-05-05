@@ -27,7 +27,7 @@
                 android:fontFamily="serif"
                 android:text="My Profile"
                 android:textAlignment="center"
-                android:textSize="@dimen/Tiltle" />
+                android:textSize="@dimen/Title" />
 
             <ImageView
                 android:id="@+id/imageView3"

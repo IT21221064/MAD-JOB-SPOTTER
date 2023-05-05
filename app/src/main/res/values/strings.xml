@@ -102,5 +102,6 @@
     <string name="sign_up_as_an_employer">Sign Up As an Employer</string>
 
     <string name="my_company_vacancies">My Company Vacancies</string>
+    <string name="edit_vacancy_details">Edit Vacancy Details</string>
 
 </resources>

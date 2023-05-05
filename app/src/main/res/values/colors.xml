@@ -15,4 +15,10 @@
     <color name="seemore">#966fd6</color>
     <color name="button">#966fd6</color>
 
+
+    <color name="lightPurple">#966FD6 </color>
+    <color name="lightBlue">#29b6f6</color>
+    <color name="red">#E53935</color>
+    <color name="opacity">#30ffffff</color>
+
 </resources>
